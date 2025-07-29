@@ -1,0 +1,10 @@
+telegram
+python-telegram-bot
+python-telegram-bot[job-queue]
+PyPDF2
+logging
+pathlib
+langchain
+langchain_community
+langchain_huggingface
+streamlit

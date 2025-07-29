@@ -1,0 +1,203 @@
+{
+  "antipasti": [
+    {
+      "nome": "Bruschette miste",
+      "tipo":"antipasto",
+      "descrizione": "Pane tostato con pomodoro, olive, paté e formaggi",
+      "prezzo": 6.00,
+      "abbinamento": "Vino bianco frizzante secco o birra chiara"
+    },
+    {
+      "nome": "Tagliere di salumi e formaggi",
+      "tipo":"antipasto di montagna",
+      "descrizione": "Selezione di salumi locali e formaggi stagionati",
+      "prezzo": 10.00,
+      "abbinamento": "Vino rosso giovane (Chianti) o birra ambrata"
+    },
+    {
+      "nome": "Insalata di mare",
+      "tipo":"antipasto di mare",
+      "descrizione": "Polpo, calamari, gamberi e verdure marinate",
+      "prezzo": 12.00,
+      "abbinamento": "Vino bianco fresco (Vermentino) o birra blanche"
+    }
+  ],
+  "primi": [
+    {
+      "nome": "Spaghetti alla carbonara",
+      "tipo":"primo di carne",
+      "descrizione": "Guanciale, uova, pecorino romano, pepe nero",
+      "prezzo": 9.50,
+      "abbinamento": "Vino rosso leggero (Pinot Nero) o birra bionda"
+    },
+    {
+      "nome": "Lasagna alla bolognese",
+      "tipo":"primo di carne",
+      "descrizione": "Sfoglia all’uovo con ragù, besciamella e parmigiano",
+      "prezzo": 11.00,
+      "abbinamento": "Vino rosso strutturato (Barbera) o birra rossa"
+    },
+    {
+      "nome": "Risotto alla pescatora",
+      "tipo":"primo di pesce",
+      "descrizione": "Riso mantecato con frutti di mare freschi",
+      "prezzo": 13.00,
+      "abbinamento": "Vino bianco aromatico (Falanghina) o birra chiara"
+    }
+  ],
+  "secondi": [
+      {
+        "nome": "Tagliata di manzo al rosmarino",
+        "tipo":"secondo di carne",
+        "descrizione": "Controfiletto con rosmarino e patate al forno",
+        "prezzo": 16.00,
+        "abbinamento": "Vino rosso importante (Chianti Riserva) o birra doppio malto"
+      },
+      {
+        "nome": "Pollo alla cacciatora",
+        "tipo":"secondo di carne",
+        "descrizione": "Cosce di pollo in umido con pomodoro e olive",
+        "prezzo": 12.00,
+        "abbinamento": "Vino rosso fruttato (Montepulciano) o birra ambrata"
+      },
+      {
+        "nome": "Grigliata mista di pesce",
+        "tipo":"secondo di pesce",
+        "descrizione": "Gamberoni, seppie, orata e contorno di verdure",
+        "prezzo": 18.00,
+        "abbinamento": "Vino bianco secco (Greco di Tufo) o birra blanche"
+      },
+      {
+        "nome": "Filetto di salmone al limone",
+        "tipo":"secondo di pesce",
+        "descrizione": "Servito con insalata fresca e riso basmati",
+        "prezzo": 15.00,
+        "abbinamento": "Vino rosato secco o birra chiara"
+      }
+    ],
+  "pizze": [
+      {
+        "nome": "Margherita",
+        "tipo":"pizza rossa",
+        "descrizione": "Pomodoro, mozzarella, basilico",
+        "prezzo": 6.00,
+        "abbinamento": "Birra chiara leggera o vino rosato"
+      },
+      {
+        "nome": "Diavola",
+        "tipo":"pizza rossa",
+        "descrizione": "Pomodoro, mozzarella, salame piccante",
+        "prezzo": 7.50,
+        "abbinamento": "Birra ambrata o vino rosso vivace (Lambrusco)"
+      },
+      {
+        "nome": "Capricciosa",
+        "tipo":"pizza rossa",
+        "descrizione": "Pomodoro, mozzarella, prosciutto, carciofi, olive, funghi",
+        "prezzo": 8.50,
+        "abbinamento": "Vino rosso giovane o birra rossa"
+      },
+      {
+        "nome": "Pizza Tartufo",
+        "tipo":"pizza bianca",
+        "descrizione": "Mozzarella, crema di tartufo, funghi porcini",
+        "prezzo": 12.00,
+        "abbinamento": "Vino rosso elegante (Nebbiolo) o birra scura"
+      },
+      {
+        "nome": "Patate e salsiccia",
+        "tipo":"pizza bianca",
+        "descrizione": "Mozzarella, patate, salsiccia, rosmarino",
+        "prezzo": 9.00,
+        "abbinamento": "Birra rossa corposa o vino rosso speziato (Syrah)"
+      },
+      {
+        "nome": "Quattro formaggi",
+         "tipo":"pizza bianca",
+        "descrizione": "Mozzarella, gorgonzola, fontina, parmigiano",
+        "prezzo": 9.50,
+        "abbinamento": "Vino bianco morbido (Chardonnay) o birra ambrata"
+      }
+    ],
+  "dolci": [
+    {
+      "nome": "Tiramisù",
+      "tipo":"dolce",
+      "descrizione": "Mascarpone, savoiardi, caffè, cacao",
+      "prezzo": 5.00,
+      "abbinamento": "Vino dolce (Passito) o liquore al caffè"
+    },
+    {
+      "nome": "Cheesecake ai frutti di bosco",
+      "tipo":"dolce",
+      "descrizione": "Base di biscotto, crema di formaggio, frutti di bosco",
+      "prezzo": 5.50,
+      "abbinamento": "Vino rosato dolce o birra fruttata"
+    },
+    {
+      "nome": "Panna cotta",
+      "tipo":"dolce",
+      "descrizione": "Servita con caramello o cioccolato",
+      "prezzo": 4.50,
+      "abbinamento": "Vino da dessert (Moscato) o liquore alla vaniglia"
+    }
+  ],
+  "bevande": [
+      {
+        "nome": "Acqua naturale",
+        "tipo":"bevanda analcolica",
+        "descrizione": "Bottiglia 0.5L",
+        "prezzo": 1.00
+      },
+      {
+        "nome": "Bibita in lattina",
+        "tipo":"bevanda analcolica",
+        "descrizione": "Coca Cola, Fanta, Sprite",
+        "prezzo": 2.50
+      },
+      {
+        "nome": "Succhi di frutta",
+        "tipo":"bevanda analcolica",
+        "descrizione": "Arancia, pesca, ananas",
+        "prezzo": 2.00
+      },
+      {
+        "nome": "Vino rosso della casa",
+        "tipo":"bevanda alcolica",
+        "descrizione": "Calice 150ml",
+        "prezzo": 3.50
+      },
+      {
+        "nome": "Vino bianco della casa",
+        "tipo":"bevanda alcolica",
+        "descrizione": "Calice 150ml",
+        "prezzo": 3.50
+      },
+      {
+        "nome": "Birra artigianale",
+        "tipo":"bevanda alcolica",
+        "descrizione": "Chiara o ambrata, bottiglia 33cl",
+        "prezzo": 5.00
+      }
+    ],
+    "menu fisso": [
+	{
+		"nome": "menu carne",
+		"tipo": "menu fisso di carne",
+		"descrizione": "primo a scelta, secondo a scelta, dolce, caffè, bevande escluse",
+		"prezzo": 35.00
+	},
+	{
+		"nome": "menu pesce",
+		"tipo": "menu fisso di pesce",
+		"descrizione": "risotto alla pescatora, secondo a scelta, sorbetto, caffè, bevande escluse",
+		"prezzo": 45.00	
+	},
+	{
+		"nome": "menu pizza",
+		"tipo": "menu fisso di pizza",
+		"descrizione": "bruschette miste, pizza a scelta, birra, caffè, altre bevande escluse",
+		"prezzo": 25.00	
+	}
+    ]
+  }
