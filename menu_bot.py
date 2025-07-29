@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 # === CONFIG ===
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-VECTOR_PATH = "/Users/mattiapannone/Projects/MyRAG/vector_menu"
+VECTOR_PATH = "/vector_menu"
 
 # === Prompt personalizzato ===
 custom_prompt = PromptTemplate.from_template("""
