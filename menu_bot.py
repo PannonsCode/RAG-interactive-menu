@@ -7,11 +7,19 @@ from langchain.prompts import PromptTemplate
 from llm_utils import get_retriever
 from llm_utils import LLM, EMBEDDINGS  # Usa il tuo LLM e embeddings
 from dotenv import load_dotenv
+import threading
+import time
 
 # === CONFIG ===
+os.environ["PORT"] = "8080"  # dummy value richiesta da Render
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 VECTOR_PATH = "vector_menu/"
+
+def keep_alive():
+    while True:
+        time.sleep(60)
+
 
 # === Prompt personalizzato ===
 custom_prompt = PromptTemplate.from_template("""
@@ -68,3 +76,4 @@ if __name__ == "__main__":
 
     print("Bot avviato...")
     app.run_polling()
+    threading.Thread(target=keep_alive).start()
