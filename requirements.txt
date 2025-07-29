@@ -10,4 +10,3 @@ langchain_huggingface
 streamlit
 openai
 faiss-cpu
-flask
