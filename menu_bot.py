@@ -7,27 +7,11 @@ from langchain.prompts import PromptTemplate
 from llm_utils import get_retriever
 from llm_utils import LLM, EMBEDDINGS  # Usa il tuo LLM e embeddings
 from dotenv import load_dotenv
-import threading
-import time
-from flask import Flask
 
 # === CONFIG ===
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 VECTOR_PATH = "vector_menu/"
-
-# Codice del tuo bot (es. application.run_polling()) qui sopra...
-
-# === Dummy Web Server per Render ===
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return 'Bot is running'
-
-def run_dummy_server():
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
 
 # === Prompt personalizzato ===
 custom_prompt = PromptTemplate.from_template("""
@@ -84,5 +68,3 @@ if __name__ == "__main__":
 
     print("Bot avviato...")
     app.run_polling()
-    # Avvia il dummy server in un thread parallelo
-    threading.Thread(target=run_dummy_server).start()
